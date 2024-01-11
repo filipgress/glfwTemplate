@@ -8,6 +8,7 @@ set(HEADER_FILES
 	src/core/pch.h
 	src/core/base.h
 	src/core/log.h
+	src/core/config.h.in
 
 	src/window/window.h
 	src/window/event.h
