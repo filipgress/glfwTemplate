@@ -26,7 +26,7 @@ set(SOURCE_FILES
 	src/window/window.cc
 )
 
-project(ComputerGraphics VERSION 1.0.0)
+project(glfw_template VERSION 1.0.0)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 configure_file(src/core/config.h.in config.h)
 
